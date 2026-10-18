@@ -1,0 +1,20 @@
+{
+  "name": "All Rummy King",
+  "short_name": "RummyKing",
+  "start_url": "https://allrummyking.com/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1a7442",
+  "icons": [
+    {
+      "src": "images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
