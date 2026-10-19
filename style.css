@@ -198,7 +198,7 @@ header {
   gap: 8px;
 }
 
-/* Horizontal Top 6 */
+/* Horizontal Top 6 Carousel */
 .top6-carousel {
   display: flex;
   gap: 14px;
@@ -504,23 +504,6 @@ footer {
   background: var(--primary-green);
 }
 
-@media (max-width: 600px) {
-  .game-card {
-    padding: 10px 12px;
-  }
-  .game-img {
-    width: 52px;
-    height: 52px;
-  }
-  .btn-download-action {
-    padding: 8px 12px;
-    font-size: 0.82rem;
-  }
-  .game-name {
-    font-size: 0.95rem;
-  }
-} 
-
 /* Breadcrumb */
 .breadcrumb {
   font-size: 0.85rem;
@@ -636,40 +619,8 @@ footer {
   border-radius: 6px;
   display: inline-block;
 }
-/* Mobile View Fix: Game Card & Button */
-@media (max-width: 600px) {
-  .game-card {
-    padding: 10px 12px;
-    gap: 8px;
-  }
-  .card-left {
-    gap: 10px;
-    flex: 1;
-    min-width: 0;
-  }
-  .game-img {
-    width: 50px;
-    height: 50px;
-    flex-shrink: 0;
-  }
-  .game-details {
-    min-width: 0;
-    flex: 1;
-  }
-  .game-name {
-    font-size: 0.95rem;
-    white-space: normal;
-    line-height: 1.25;
-    margin-bottom: 3px;
-  }
-  .btn-download-action {
-    padding: 9px 14px;
-    font-size: 0.85rem;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-}
-/* Mobile View Fix: Homepage & 7 Game Pages Similar Cards */
+
+/* Single Unified Mobile Fix for All Pages */
 @media (max-width: 600px) {
   .game-card {
     padding: 10px 12px !important;
@@ -703,14 +654,10 @@ footer {
     font-size: 0.78rem !important;
     line-height: 1.3 !important;
   }
-  /* Mobile me button ko chhota aur compact rakhne ke liye */
   .btn-download-action {
     padding: 8px 12px !important;
     font-size: 0.82rem !important;
     white-space: nowrap !important;
     flex-shrink: 0 !important;
-    max-width: 120px !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
   }
 }
