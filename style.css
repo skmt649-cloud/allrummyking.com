@@ -669,3 +669,48 @@ footer {
     flex-shrink: 0;
   }
 }
+/* Mobile View Fix: Homepage & 7 Game Pages Similar Cards */
+@media (max-width: 600px) {
+  .game-card {
+    padding: 10px 12px !important;
+    gap: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .card-left {
+    gap: 10px !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+  .game-img {
+    width: 48px !important;
+    height: 48px !important;
+    flex-shrink: 0 !important;
+  }
+  .game-details {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+  .game-name {
+    font-size: 0.95rem !important;
+    white-space: normal !important;
+    word-break: keep-all !important;
+    line-height: 1.25 !important;
+    margin-bottom: 3px !important;
+  }
+  .game-bonus, .game-min {
+    font-size: 0.78rem !important;
+    line-height: 1.3 !important;
+  }
+  /* Mobile me button ko chhota aur compact rakhne ke liye */
+  .btn-download-action {
+    padding: 8px 12px !important;
+    font-size: 0.82rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    max-width: 120px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}
